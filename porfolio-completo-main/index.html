@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/RL/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                   
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Reinaldo Landaeta</span>, Desarrollador Web</h2>
+                <p class="descripcion">Aqui podras ver todo lo relacionado con mis trabajos y habilidades</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Reinaldo Landaeta</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Hola, soy un programador fullstack, actualmente tengo 18 años con grandes deseos de aprender cada dia y forjar un camino profesional y prospero, tengo un certificado en oratoria e ingles B2, aqui podras conocer mas sobre mi, mis servicios y mis habilidades. Para mucha mas informacion, te invito a descargar mi cv </p>
+            <a href="CURRICULUM VITAE REINALDO LANDAETA (1) (1).pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+              <p>Diseñar y crear una buena experiencia para el usuario</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Bases de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+               <p>creacion, manejo de bases de datos y correccion de errores </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Creacion de bots</h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+               creacion, actualizacion y mantenimiento de bots
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>programacion fullstack</h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+               <p>manejo de la parte frontend y backend de un sitio web</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Bilingual</h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+                Manejo de idiomas ingles y español
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4></h4>
+                <hr>
+                <ul class="servicios-tag">
+                   
+                </ul>
+                <p>Conocimiento amplio y de analisis en la crecion de sistemas de paginas web innovadores ademas de saber trabajar en equipo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Tailwind css</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript & node.js</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos con mongodb</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Creacion de bots</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="pp"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Simulacion de tienda virtual</h4>
+                    <p>El codigo esta en mi github</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto Barberia (frontend)</h4>
+                    <p>Este proyecto esta en desarrollo actualmente y se podran ver los resultados ya subidos en internet y en cualquier navegador a partir del 29/03</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto Barberia (Backend)</h4>
+                    <p>este proyecto utiliza la base de datos en mongodb para guadar sus usuarios y sus contraseñas de forma encriptada al igual que construye roles para definir si entra el usuario o el administrador </p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto Discord</h4>
+                    <p>Este proyecto se basa en una base de datos para buscar peliculas y alamcenar tu pelicula favorita en una base de datos SQL/SQlite, (el codigo se encuentra en github y actualmente el bot esta desactivado)</p>
+            </div>
+         </div>
+
+         <p style="display: flex; flex-direction: column; color: azure; padding: 1rem; left: 30px;">los demas proyectos apareceran en mi Github</p><a style="background-color: rgb(51, 51, 163); font-weight: bold; color: white; font-family: 'Courier New', Courier, monospace; text-decoration: none; height: 30px; border-radius: 8px; display: flex; align-items: center; padding: 1.5rem;" href="https://github.com/REyyyy43">ir a Github</a>
+         
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+       
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
