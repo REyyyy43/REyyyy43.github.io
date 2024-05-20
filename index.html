@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="estilo.css">
-    <title>LP Desarrollador Web</title>
+    <title>LP Web Developer</title>
 </head>
 
 <body>
-    <!-- SECCION I N I C I O -->
+    <!-- SECTION START -->
     <section id="inicio">
         <div class="contenido">
             <header>
@@ -20,14 +20,14 @@
                     <h1>/RL/</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">HOME</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICES</a></li>
                             <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
                         </ul>
                     </nav>
 
-                    <!-- Icono del menu responsive -->
+                    <!-- Responsive Menu Icon -->
                     <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
@@ -37,69 +37,71 @@
                 </div>
             </header>
             <div class="presentacion">
-                <p class="bienvenida">Bienvenidos</p>
-                <h2>Soy <span>Reinaldo Landaeta</span>, Desarrollador Web</h2>
-                <p class="descripcion">Aqui podras ver todo lo relacionado con mis trabajos y habilidades</p>
-                <a href="#portfolio">Ir a Portafolio</a>
+                <p class="bienvenida">Welcome</p>
+                <h2>I'm <span>Reinaldo Landaeta</span>, Web Developer</h2>
+                <p class="descripcion">Here you can find everything related to my work and skills</p>
+                <a href="#portfolio">Go to Portfolio</a>
             </div>
         </div>
     </section>
 
-    <!-- SECCION S O B R E M I -->
+    <!-- ABOUT ME SECTION -->
     <section id="sobremi">
         <div class="contenedor-foto">
             <img src="img/foto.jpeg" alt="">
         </div>
         <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi</p>
-            <h2>Hola, Soy <span>Reinaldo Landaeta</span> </h2>
-            <h3>Desarrollador Web</h3>
-            <p>Hola, soy un programador fullstack, actualmente tengo 18 años con grandes deseos de aprender cada dia y forjar un camino profesional y prospero, tengo un certificado en oratoria e ingles B2, aqui podras conocer mas sobre mi, mis servicios y mis habilidades. Para mucha mas informacion, te invito a descargar mi cv </p>
-            <a href="ReinaldoLandaetaCV_4_ (1).pdf">Descargar CV</a>
+            <p class="titulo-seccion">About Me</p>
+            <h2>Hello, I'm <span>Reinaldo Landaeta</span> </h2>
+            <h3>Web Developer</h3>
+            <p>Hello, I'm a fullstack programmer with extensive experience, driven by a strong desire to learn every day and pave a professional and prosperous path. I hold a certificate in public speaking and have proficiency in English at level B2. Here you can learn more about me, my services, and my skills. For more detailed information, I invite you to download my CV.</p>
+            <a href="Reinaldo Landaeta CV (5).pdf">Download CV(Spanish)</a>
+            <a href="Reinaldo Landaeta CV (ingles).pdf">Download CV(English)</a>
+            <a style="width:25%; font-weight: bold; color: white; font-family: 'Courier New', Courier, monospace; text-decoration: none; height: 30px; border-color: rgb(49, 49, 173); border-radius: 20px; display: flex; align-items: center; padding: 1.5rem;" href="https://github.com/REyyyy43">My Github</a>
         </div>
     </section>
 
-    <!-- SECCION S E R V I C I O S -->
+    <!-- SERVICES SECTION -->
     <section id="servicios">
-        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <h3 class="titulo-seccion">MY SERVICES</h3>
         <div class="fila">
             <div class="servicio">
                 <span class="icono"> <i class="fa-solid fa-code"></i></span>
-                <h4>Diseño de Sitios Web</h4>
+                <h4>Web Design</h4>
                 <hr>
                 <ul class="servicios-tag">
                    
                 </ul>
-              <p>Diseñar y crear una buena experiencia para el usuario</p>
+              <p>Designing and creating a good user experience</p>
             </div>
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-file-code"></i></span>
-                <h4>Bases de datos</h4>
+                <h4>Databases</h4>
                 <hr>
                 <ul class="servicios-tag">
                    
                 </ul>
-               <p>creacion, manejo de bases de datos y correccion de errores </p>
+               <p>Database creation, management, and error correction</p>
             </div>
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
-                <h4>Creacion de bots</h4>
+                <h4>Bot Creation</h4>
                 <hr>
                 <ul class="servicios-tag">
                    
                 </ul>
-               creacion, actualizacion y mantenimiento de bots
+               Bot creation, updating, and maintenance
             </div>
         </div>
         <div class="fila">
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-database"></i></span>
-                <h4>programacion fullstack</h4>
+                <h4>Fullstack Programming</h4>
                 <hr>
                 <ul class="servicios-tag">
                    
                 </ul>
-               <p>manejo de la parte frontend y backend de un sitio web</p>
+               <p>Frontend and backend management of a website</p>
             </div>
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-palette"></i></span>
@@ -108,23 +110,23 @@
                 <ul class="servicios-tag">
                    
                 </ul>
-                Manejo de idiomas ingles y español
+                English and Spanish language proficiency
             </div>
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
-                <h4></h4>
+                <h4>Teamwork</h4>
                 <hr>
                 <ul class="servicios-tag">
                    
                 </ul>
-                <p>Conocimiento amplio y de analisis en la crecion de sistemas de paginas web innovadores ademas de saber trabajar en equipo</p>
+                <p>Extensive knowledge and analysis in the creation of innovative web page systems as well as knowing how to work in a team</p>
             </div>
         </div>
     </section>
 
-    <!-- SECCION H A B I L I D A D E S -->
+    <!-- SKILLS SECTION -->
     <div class="contenedor-skills" id="skills">
-        <h3>HABILIDADES </h3>
+        <h3>SKILLS</h3>
         <div class="skill">
             <div class="info">
                 <p> <span class="lista"> </span>Html & Css</p>
@@ -157,7 +159,7 @@
         </div>
         <div class="skill">
             <div class="info">
-                <p> <span class="lista"> </span>Bases de Datos con mongodb</p>
+                <p> <span class="lista"> </span>Databases with mongodb</p>
                 <span class="porcentaje">90%</span>
             </div>
 
@@ -167,7 +169,7 @@
         </div>
         <div class="skill">
             <div class="info">
-                <p> <span class="lista"> </span>Creacion de bots</p>
+                <p> <span class="lista"> </span>Bot Creation</p>
                 <span class="porcentaje">90%</span>
             </div>
 
@@ -177,24 +179,24 @@
         </div>
     </div>
 
-    <!-- SECCION PORTAFOLIO -->
+    <!-- PORTFOLIO SECTION -->
     <section id="portfolio">
-        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <h3 class="titulo-seccion">Portfolio</h3>
         <div class="fila">
             <div class="proyecto">
                 <div class="overlay"></div>
                 <img src="img/proyecto1.jpg" alt="">
                 <div class="info">
-                    <h4>Simulacion de tienda virtual</h4>
-                    <p>El codigo esta en mi github</p>
+                    <h4>calculate your cryptocurrency favorite</h4>
+                    <a class="Buttonlink" href="https://dollarshub.onrender.com/">View Online</a>
                 </div>
             </div>
             <div class="proyecto">
                 <div class="overlay"></div>
                 <img src="img/proyecto2.jpg" alt="">
                 <div class="info">
-                    <h4>Proyecto Barberia</h4>
-                   <a class="Buttonlink" href="https://barber-shop-q3y0.onrender.com/">Ver en linea</a>
+                    <h4>Barber Shop Project</h4>
+                   <a class="Buttonlink" href="https://barber-shop-q3y0.onrender.com/">View Online</a>
                 </div>
             </div>
         </div>
@@ -203,18 +205,19 @@
                 <div class="overlay"></div>
                 <img src="img/proyecto4.jpg" alt="">
                 <div class="info">
-                    <h4>Proyecto Discord</h4>
-                    <p>Este proyecto se basa en una base de datos para buscar peliculas y alamcenar tu pelicula favorita en una base de datos SQL/SQlite, (el codigo se encuentra en github y actualmente el bot esta desactivado)</p>
+                    <h4>Discord Project</h4>
+                    <p>This project is based on a database to search for movies and store your favorite movie in an SQL/SQlite database, (the code is on github and currently the bot is deactivated)</p>
+                    <a class="Buttonlink" href="https://github.com/REyyyy43">View in Github</a>
             </div>
          </div>
 
-         <p style="display: flex; flex-direction: column; color: azure; padding: 1rem; left: 30px;">los demas proyectos apareceran en mi Github</p><a style="background-color: rgb(51, 51, 163); font-weight: bold; color: white; font-family: 'Courier New', Courier, monospace; text-decoration: none; height: 30px; border-radius: 8px; display: flex; align-items: center; padding: 1.5rem;" href="https://github.com/REyyyy43">ir a Github</a>
+         
          
     </section>
 
-    <!-- SECCION FOOTER -->
+    <!-- FOOTER SECTION -->
     <footer>
-        <p>Todos los derechos reservados - 2023</p>
+        <p>All rights reserved - 2023</p>
        
 
     </footer>
