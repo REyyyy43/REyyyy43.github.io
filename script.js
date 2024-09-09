@@ -1,46 +1,41 @@
-//Función que me aplica el estilo a la opciòn seleccionada y quita la previamente seleccionada
-function seleccionar(link) {
-    var opciones = document.querySelectorAll('#links  a');
-    opciones[0].className = "";
-    opciones[1].className = "";
-    opciones[2].className = "";
-    opciones[3].className = "";
-    opciones[4].className = "";
-    link.className = "seleccionado";
-
-    //Hacemos desaparecer el menu una vez que se ha seleccionado una opcion
-    //en modo responsive
-    var x = document.getElementById("nav");
-    x.className = "";
-}
-
-//función que muestra el menu responsive
-function responsiveMenu() {
-    var x = document.getElementById("nav");
-    if (x.className === "") {
-        x.className = "responsive";
-    } else {
-        x.className = "";
+let menuVisible = false;
+//Función que oculta o muestra el menu
+function mostrarOcultarMenu(){
+    if(menuVisible){
+        document.getElementById("nav").classList ="";
+        menuVisible = false;
+    }else{
+        document.getElementById("nav").classList ="responsive";
+        menuVisible = true;
     }
 }
 
-//detecto el scrolling para aplicar la animación del la barra de habilidades
-window.onscroll = function() { efectoHabilidades() };
-
-//funcion que aplica la animación de la barra de habilidades
-function efectoHabilidades() {
+function seleccionar(){
+    //oculto el menu una vez que selecciono una opcion
+    document.getElementById("nav").classList = "";
+    menuVisible = false;
+}
+//Funcion que aplica las animaciones de las habilidades
+function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if (distancia_skills >= 500) {
-        document.getElementById("html").classList.add("barra-progreso1");
-        document.getElementById("js").classList.add("barra-progreso2");
-        document.getElementById("bd").classList.add("barra-progreso3");
-        document.getElementById("nj").classList.add("barra-progreso4");
-        document.getElementById("Exp").classList.add("barra-progreso5");
-        document.getElementById("Py").classList.add("barra-progreso6");
-        document.getElementById("sql").classList.add("barra-progreso7");
-        document.getElementById("ps").classList.add("barra-progreso8");
-        document.getElementById("pp").classList.add("barra-progreso9");
+    if(distancia_skills >= 300){
+        let habilidades = document.getElementsByClassName("progreso");
+        habilidades[0].classList.add("javascript");
+        habilidades[1].classList.add("htmlcss");
+        habilidades[2].classList.add("photoshop");
+        habilidades[3].classList.add("wordpress");
+        habilidades[4].classList.add("drupal");
+        habilidades[5].classList.add("comunicacion");
+        habilidades[6].classList.add("trabajo");
+        habilidades[7].classList.add("creatividad");
+        habilidades[8].classList.add("dedicacion");
+        habilidades[9].classList.add("proyect");
     }
-
 }
+
+
+//detecto el scrolling para aplicar la animacion de la barra de habilidades
+window.onscroll = function(){
+    efectoHabilidades();
+} 
