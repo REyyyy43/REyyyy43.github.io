@@ -208,6 +208,9 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+.btn{
+    text-decoration: none;
+}
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
