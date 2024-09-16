@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
@@ -33,17 +34,15 @@
 
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
+        <div class="contenido-banner" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <div class="contenedor-img">
                 <img src="img/hero.png" alt="">
             </div>
             <h1>Reinaldo Landaeta</h1>
-            <h2>Ingeniero de Software - Experto UI/UX</h2>
+            <h2>Estudiante de Ingenieria de Software - Fullstack developer</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/REyyyy43"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/reinaldo-landaeta-232188289/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="#"><i class="fa-solid fa-rss"></i></a>
             </div>
         </div>
@@ -53,7 +52,7 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+            <p><span>Hola, soy Reinaldo Landaeta.</span>   titulado en Técnico en Desarrollo Web Fullstack con grado en Desarrollo de Aplicaciones Web. Soy un apasionado del desarrollo web con una sólida formación en diversas tecnologías y lenguajes de programación, incluyendo HTML, CSS, JavaScript, Java y PHP. Tengo experiencia trabajando con frameworks y bibliotecas como Bootstrap, además de manejar bases de datos con MongoDB y MySQL. Mi objetivo es crear aplicaciones web eficientes, intuitivas y visualmente atractivas. Poseo un enfoque meticuloso hacia la calidad del código y la experiencia del usuario, manteniéndome siempre actualizado con las últimas tendencias y mejores prácticas en el desarrollo web. </p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -62,23 +61,15 @@
                     <ul>
                         <li>
                             <strong>Cumpleaños</strong>
-                            15-01-1980
-                        </li>
-                        <li>
-                            <strong>Teléfono</strong>
-                            2555 5454545
+                            17-12-2004
                         </li>
                         <li>
                             <strong>Email</strong>
-                            cw@example.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
+                            landaetareinaldo61@gmail.com
                         </li>
                         <li>
                             <strong>Dirección</strong>
-                            123 San Luis, Argentina
+                            1221 Miranda, Venezuela
                         </li>
                         <li>
                             <strong>Cargo</strong>
@@ -143,7 +134,7 @@
                 <div class="col">
                     <h3>Technical Skills</h3>
                     <div class="skill">
-                        <span>Javascript</span>
+                        <span>Python</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>75%</span>
@@ -159,7 +150,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>Javascript</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>95%</span>
@@ -167,7 +158,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Wordpress</span>
+                        <span>Databases</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>81%</span>
@@ -175,10 +166,18 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Drupa</span>
+                        <span>Node.js</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>55%</span>
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
                             </div>
                         </div>
                     </div>
@@ -186,14 +185,6 @@
                 <!-- Professional Skills -->
                 <div class="col">
                     <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
                     <div class="skill">
                         <span>Trabajo en Equipo</span>
                         <div class="barra-skill">
@@ -203,18 +194,26 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Comunicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>99%</span>
+                                <span>98%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
+                        <span>Creatividad</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad de adaptacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
                             </div>
                         </div>
                     </div>
@@ -223,6 +222,14 @@
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolucion de problemas complejos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
                             </div>
                         </div>
                     </div>
@@ -239,28 +246,37 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Tecnologia</h4>
+                        <span class="casa">Univerdidad Experimental (UNEXPO)</span>
+                        <span class="fecha">2023 - Presente</span>
+                        <p>Actualmente me encuentro cursando la carrera universitaria de ingenieria en sistemas, ya contando con la capacidad de resolver problemas complejos y alta experiencia en el area de la programacion.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Programacion</h4>
+                        <span class="casa">neoUniversidad de EDTecnica</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>En este tiempo aprendi y tambien perfeccione mis conocimientos ya adquiridos como programador desarrollando proyectos, realizando ejercicios practicos y poniendo a prueba mis habilidades ademas de aprender nuevos lenguajes y frameworks</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Lenguas</h4>
+                        <span class="casa">Academia de Ingles AIR</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>Durante mi tiempo en la academia de inglés AIR, tuve una experiencia sumamente enriquecedora. No solo disfruté de un ambiente agradable y motivador, sino que también experimenté un progreso notable en mis habilidades lingüísticas. La enseñanza fue de alta calidad, y los métodos utilizados me ayudaron a mejorar tanto en comprensión como en expresión.  Sin duda, AIR dejó una huella positiva en mi desarrollo como Bilingϋe.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Comunicacion</h4>
+                        <span class="casa">Oratoria y lenguaje corportal Double AA</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Durante mi Titulado de Oratoria y Comunicación, experimenté un crecimiento significativo en mis habilidades para expresarme en público. Aprendí técnicas fundamentales para estructurar discursos de manera clara y persuasiva, mejorando mi confianza y fluidez al hablar. El curso me brindó herramientas prácticas para captar la atención del público, controlar el nerviosismo y proyectar una imagen profesional.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -271,27 +287,36 @@
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
                         <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <span class="casa">Sirux</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>Diseñe, estructure y perfeccione mis habilidades como programador frontend, realizando paginas web intuitivas e responsivas y en donde tambien pude adquirir mas experiencia como diseñador digital</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Fullstack Developer</h4>
+                        <span class="casa">Alejandro's Barbershop</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>En este tiempo realice una pagina promocional para una barberia recien inagurada en Madrid.España, dicha pagina cumple con la funcion de agendar citas para la barberia, donde el cliente puede agendar su cita luego de registrarse en la pagina y obtener su usuario y le permite al barbero o administrador visualizar las citas agendadas poder agregar o eliminar una cita, crear su horario de trabajo y el servicio que ofrece para que el cliente pueda seleccionarlo en la pagina principal, importante recalcar que dicha pagina tambien posee una pasarela de pagos.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Fullstack Developer</h4>
+                        <span class="casa">PrevenCrimen C.A</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Desarrolle una pagina para prevenir el crimen en varias zonas de Peru, realizando un modelo de machine learning para sacar un aproximado de cuantos crimenes pueden ocurrir para el año 2025-2026 en ciertas zonas de dicho pais recopilando los datos segun un formulario que deben completar los ciudadanos de dichas zonas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fullstack Developer</h4>
+                        <span class="casa">MENU</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <p>Esta es una agencia de Marketing digital y programacion en la que he estado trabajando junto a varios programadores de todo el mundo, dicha agencia de la cual soy dueño y fundador se basa en realizar el marketing digital, paginas web, trabajos de comunity manager y diseño grafico de empresas pequeñas y medianas, donde puedes encontrar todos estos servicios en un solo lugar y realizados por profesionales para potenciar tu empresa o emprendimiento.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -307,45 +332,54 @@
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
+                    <img src="img/p1.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>DollarsHub</h3>
+                        <a href="https://github.com/REyyyy43/DollarsHub" class="Github">Github link</a>/
+                        <a href="https://dollarshub.onrender.com" class="Render">Render</a>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
+                    <img src="img/p2.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Mi Reina Isabella</h3>
+                        <a href="https://github.com/REyyyy43/MRI" class="Github">Github link</a>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
+                    <img src="img/p3.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>MENU</h3>
+                        <a href="https://github.com/REyyyy43/MENU" class="Github">Github link</a>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
+                    <img src="img/p4.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Alejandro's Barbershop</h3>
+                       <a href="https://github.com/REyyyy43/Barber-Shop" class="Github">Github link</a>/
+                       <a href="https://barber-shop-q3y0.onrender.com" class="Render">Render</a>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
+                    <img src="img/p5.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>PrevenCrimen</h3>
+                        <a href="https://github.com/REyyyy43/Prevencrime-prod" class="Github">Github link</a>
                     </div>
                 </div>
                 <div class="proyecto">
                     <img src="img/p6.jpg" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Movies Bot</h3>
+                        <a href="https://github.com/REyyyy43/Movie-bot" class="Github">Github link</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>ToDoList</h3>
+                        <a href="https://reyyyy43.github.io/ToDoListt/" class="Github">Github link</a>
                     </div>
                 </div>
             </div>
@@ -399,14 +433,20 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="#"><i class="fa-solid fa-rss"></i></a>
         </div>
     </footer>
-
+    <script>
+        // Inicializar AOS cuando el DOM esté completamente cargado
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                once: false // Permite que la animación se repita al recargar la página
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
